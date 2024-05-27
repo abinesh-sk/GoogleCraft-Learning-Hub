@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Registration Form | CodingLab</title>
+  <link rel="stylesheet" href="styleregistration.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form id="registrationForm">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input id="fullName" type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input id="username" type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input id="email" type="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input id="phoneNumber" type="tel" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input id="password" type="password" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input id="confirmPassword" type="password" placeholder="Confirm your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Course</span>
+            <select id="course" required>
+              <option value="">Select your course</option>
+              <option value="Fundamentals">Google Fundamentals for Beginners</option>
+              <option value="Search Techniques">Advanced Google Search Techniques</option>
+              <option value="Productivity">Google Productivity Suite: Boosting Efficiency</option>
+              <option value="Marketing">Google Marketing Essentials</option>
+              <option value="Apps">Developing Apps and Extensions with Google APIs</option>
+            </select>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="registrationscript.js"></script>
+</body>
+</html>

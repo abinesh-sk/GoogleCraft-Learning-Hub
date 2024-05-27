@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Hub</title>
+    <link rel="stylesheet" href="learningcss.css">
+</head>
+<body>
+    <header>Welcome to Learning Hub</header>
+    <nav>
+        <a href="Homehtml.html">Home</a>
+        <a href="indexcourseoffered.html">Courses</a>
+        <a href="Learning.html">Learning</a>
+        <a href="feedbackhtml.html">Feedback</a>
+    </nav>
+
+    <div class="container">
+        <div class="progress">
+            <div class="progress-bar" id="progress-bar" style="width: 0;"></div>
+        </div>
+        <div class="progress-message" id="progress-message"></div>
+
+        <div class="course" id="course1">
+            <div class="course-header">
+                <h2 class="course-title">Google Fundamentals for Beginners<span class="toggle-arrow">&#9660;</span></h2>
+                <button class="done-btn" title="Mark as done">&#10004; Mark as Done</button>
+            </div>
+            <div class="modules">
+                <div class="module"><a href="https://developers.google.com/search/docs/fundamentals/how-search-works#:~:text=Google%20Search%20is%20a%20fully,to%20add%20to%20our%20index.">Module 1: Introduction to Google Search Engine</a></div>
+                <div class="module"><a href="https://www.techtarget.com/whatis/definition/Google-Maps">Module 2: Basics of Google Maps and Navigation</a></div>
+                <div class="module"><a href="https://www.techsmith.com/blog/make-youtube-video/">Module 3: Getting Started with Youtube Watching and Uploading Videos</a></div>
+                <button class="start-assessment-btn" onclick="startAssessment()">Start Assessment</button>
+            </div>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5zQGKcNIx_o?si=J3xKCUqNPQXXrhME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="course" id="course2">
+            <div class="course-header">
+                <h2 class="course-title">Advanced Google Search Techniques<span class="toggle-arrow">&#9660;</span></h2>
+                <button class="done-btn" title="Mark as done">&#10004; Mark as Done</button>
+            </div>
+            <div class="modules">
+                <div class="module"><a href="https://ahrefs.com/blog/google-advanced-search-operators/">Module 1: Advanced Search Operators and Filters</a></div>
+                <div class="module"><a href="https://www.semrush.com/blog/google-trends/">Module 2: Google Trends-Analyzing Search Trends and Data</a></div>
+                <div class="module"><a href="https://keyhole.co/blog/how-to-set-up-google-alerts/">Module 3: Effective Google Alerts for Monitoring Online Information</a></div>
+                <button class="start-assessment-btn" onclick="startAssessment()">Start Assessment</button>
+            </div>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BRiNw490Eq0?si=XquIiw74cHBvXINR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="course" id="course3">
+            <div class="course-header">
+                <h2 class="course-title">Google Productivity Suite: Boosting Efficiency<span class="toggle-arrow">&#9660;</span></h2>
+                <button class="done-btn" title="Mark as done">&#10004; Mark as Done</button>
+            </div>
+            <div class="modules">
+                <div class="module"><a href="https://blog.google/products/gmail/master-your-email/">Module 1: Mastering Gmail: Email Organization and Productivity Tips</a></div>
+                <div class="module"><a href="https://www.orangescrum.com/tutorial/task-management/google-tasks-guide-to-task-management">Module 2: Managing Tasks and Projects with Google Keep and Tasks</a></div>
+                <div class="module"><a href="https://support.google.com/a/users/answer/9323682?hl=en">Module 3: Optimizing Google Calendar for Scheduling and Time Management</a></div>
+                <button class="start-assessment-btn" onclick="startAssessment()">Start Assessment</button>
+            </div>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/I4nd57FQmWE?si=wYyHFnsdU5Sz5_BX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="course" id="course4">
+            <div class="course-header">
+                <h2 class="course-title">Developing Apps and Extensions with Google APIs<span class="toggle-arrow">&#9660;</span></h2>
+                <button class="done-btn" title="Mark as done">&#10004; Mark as Done</button>
+            </div>
+            <div class="modules">
+                <div class="module"><a href="https://www.cloudskillsboost.google/focuses/3473?parent=catalog">Module 1: Introduction to Google APIs and Developer Tools</a></div>
+                <div class="module"><a href="https://developers.google.com/maps/documentation/javascript/overview">Module 2: Building Web Applications with Google Map API</a></div>
+                <div class="module"><a href="https://developers.google.com/youtube/v3">Module 3: Integrating Youtube API for Video Content Integration</a></div>
+                <button class="start-assessment-btn" onclick="startAssessment()">Start Assessment</button>
+            </div>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/I5ili_1G0Vk?si=-kSOoIlVkMO7QR8J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="learningscript.js"></script>
+</body>
+</html>

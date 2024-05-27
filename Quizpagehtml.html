@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="quizpagecss.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Unleashing Google-Quiz</h1>
+    <div id="timer">Time Remaining: 12:00</div>
+    <button type="button" id="back-btn"><a href="Learning.html">Back</a></button>
+    <form id="quiz-form">
+      <h3>Question 1: What is the primary programming language used for building Chrome extensions?</h3>
+      <label><input type="radio" name="q1" value="a">JavaScript</label>
+      <label><input type="radio" name="q1" value="b">Python</label>
+      <label><input type="radio" name="q1" value="c">Java</label>
+
+      <h3>Question 2: Which Google-owned platform uses the algorithm called "PageRank"?</h3>
+      <label><input type="radio" name="q2" value="a">Google Search</label>
+      <label><input type="radio" name="q2" value="b">YouTube</label>
+      <label><input type="radio" name="q2" value="c">Google Maps</label>
+
+      <h3>Question 3: Who acquired Blogger in 2003?</h3>
+      <label><input type="radio" name="q3" value="a">Microsoft</label>
+      <label><input type="radio" name="q3" value="b">Google</label>
+      <label><input type="radio" name="q3" value="c">Yahoo</label>
+
+      <h3>Question 4: What programming language is used to write Android apps?</h3>
+      <label><input type="radio" name="q4" value="a">Swift</label>
+      <label><input type="radio" name="q4" value="b">Java</label>
+      <label><input type="radio" name="q4" value="c">C#</label>
+
+      <h3>Question 5: Which of the following is a Google web browser?</h3>
+      <label><input type="radio" name="q5" value="a">Firefox</label>
+      <label><input type="radio" name="q5" value="b">Safari</label>
+      <label><input type="radio" name="q5" value="c">Chrome</label>
+
+      <h3>Question 6: Which programming language is primarily used for machine learning with TensorFlow?</h3>
+      <label><input type="radio" name="q6" value="a">Python</label>
+      <label><input type="radio" name="q6" value="b">JavaScript</label>
+      <label><input type="radio" name="q6" value="c">Java</label>
+
+      <h3>Question 7: What is the name of Google's mobile operating system?</h3>
+      <label><input type="radio" name="q7" value="a">iOS</label>
+      <label><input type="radio" name="q7" value="b">Android</label>
+      <label><input type="radio" name="q7" value="c">Windows Mobile</label>
+
+      <h3>Question 8: What is the name of Google's virtual assistant?</h3>
+      <label><input type="radio" name="q8" value="a">Siri</label>
+      <label><input type="radio" name="q8" value="b">Alexa</label>
+      <label><input type="radio" name="q8" value="c">Google Assistant</label>
+
+      <h3>Question 9: What is the name of Google's cloud computing platform?</h3>
+      <label><input type="radio" name="q9" value="a">Azure</label>
+      <label><input type="radio" name="q9" value="b">AWS</label>
+      <label><input type="radio" name="q9" value="c">Google Cloud Platform</label>
+
+      <h3>Question 10: What is the name of Google's web framework for building progressive web apps?</h3>
+      <label><input type="radio" name="q10" value="a">Angular</label>
+      <label><input type="radio" name="q10" value="b">React</label>
+      <label><input type="radio" name="q10" value="c">Polymer</label>
+
+      <button type="button" id="submit-btn">Submit Test</button>
+    </form>
+    <div id="score-container" style="display: none;">
+      <h2>Your Score:</h2>
+      <p id="score"></p>
+    </div>
+  </div>
+
+  <script src="quizpagescript.js"></script>
+</body>
+</html>

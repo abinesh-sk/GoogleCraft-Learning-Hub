@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background1.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff; 
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffffff; 
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: orangered; 
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: blanchedalmond; 
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: blanchedalmond; 
+}
+
+.login-btn, .signup-btn {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.login-btn:hover, .signup-btn:hover {
+    background-color: orangered;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: left; 
+}
+
+.services h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 1.6;
+}
