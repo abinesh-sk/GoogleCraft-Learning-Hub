@@ -1,0 +1,1 @@
+This is a Learning website designed to impart knowledge about Google tools and search engine options.This platform offers comprehensive tutorials, guides, and resources to help users master Google services and enhance their search skills. This site is under development and currently only Frontend is deployed.
