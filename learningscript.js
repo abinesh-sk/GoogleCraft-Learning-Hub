@@ -1,5 +1,5 @@
 function startAssessment() {
-    window.location.href = 'Quiz Page.html';
+    window.location.href = 'Quizpagehtml.html';
 }
 
 document.addEventListener('DOMContentLoaded', function() {
